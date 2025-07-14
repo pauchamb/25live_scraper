@@ -1,0 +1,15 @@
+[project]
+name = "collegenet"
+version = "0.1.0"
+description = "A 25Live Reservation Scraper for fetching and processing reservation data from the 25Live API."
+authors = [
+    { name = "IU Event Systems", email = "eventsys@iu.edu" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "requests>=2.32.4",
+    "python-dotenv>=1.1.1",
+    "xmltodict>=0.14.2"
+]
+
