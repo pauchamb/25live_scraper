@@ -18,7 +18,7 @@ import time
 import requests
 import xmltodict
 from datetime import datetime
-from typing import List, Dict, Optional, Union
+from typing import List, Dict, Optional
 from dotenv import load_dotenv
 from requests.auth import HTTPBasicAuth
 
