@@ -5,9 +5,9 @@ This module provides a simple interface for scraping reservation data from the 2
 It fetches reservations within a specified date range and processes them into a structured format.
 
 Requirements:
-- BASE_URL: The base URL for your 25Live API
-- USERNAME: Your 25Live API username
-- PASSWORD: Your 25Live API password
+- API_BASE_URL: The base URL for your 25Live API
+- API_USERNAME: Your 25Live API username
+- API_PASSWORD: Your 25Live API password
 
 Usage:
     python -m collegenet
