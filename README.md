@@ -2,6 +2,14 @@
 
 A Python scraper for fetching reservation data from the 25Live API. This tool processes reservation data into a structured format and handles pagination automatically.
 
+## Important Endpoints
+ - Events: https://webservices.collegenet.com/r25ws/wrd/iu/run/event.xml
+   - Specific: https://webservices.collegenet.com/r25ws/wrd/iu/run/event.xml?event_id=866064
+ - Reservations: https://webservices.collegenet.com/r25ws/wrd/iu/run/reservation.xml
+   - Specific: https://webservices.collegenet.com/r25ws/wrd/iu/run/reservation.xml?rsrv_id=163078230
+ - Organizations:https://webservices.collegenet.com/r25ws/wrd/iu/run/organization.xml
+   - Specific: https://webservices.collegenet.com/r25ws/wrd/iu/run/organization.xml?organization_id=7185
+
 ## Features
 
 - **Authentication**: Secure API authentication using HTTP Basic Auth
